@@ -53,6 +53,10 @@ a:hover, .social:hover, .arrow:hover {
     transform: translateY(-10px);
 }
 
+.arrow:hover {
+    transform: translateY(-10px);
+}
+
 .blue {
     color: #1affe7;
 }
