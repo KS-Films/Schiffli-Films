@@ -96,7 +96,7 @@ a:hover, .social:hover, .arrow:hover {
     right: 13em;
     top: 0;
     width: 20%;
-    height: 115vh;
+    height: 400vh;
     transform: rotate(1deg);
     opacity: .6;
 }
@@ -146,7 +146,7 @@ a:hover, .social:hover, .arrow:hover {
 }
 
 footer {
-    height: 14em;
+    height: 25em;
 }
 
 @-webkit-keyframes pulseUp {
@@ -160,7 +160,7 @@ footer {
 
   /* Inner Pages */
   .page {
-      padding: 0 0 10em 0;
+      padding: 1em 0 5em 0;
   }
 
   a.anchor {
@@ -193,6 +193,22 @@ footer {
     height: 100%;
 }
 
+.animals.laurel-left {
+    margin-top: 3em;
+}
+
+.animals.laurel-right {
+    margin-top: 6em;
+} 
+
+.creatures.laurel-left {
+    margin-top: 7em;
+}
+
+.creatures.laurel-right {
+    margin-top: 10em;
+}
+
 .laurel-left {
     margin-top: 5em;
 }
@@ -215,10 +231,12 @@ footer {
     }
 
     #red-back {
-        right: 15em;
-        height: 160vh;
+        right: 11em;
+        height: 500vh;
+        opacity: .2;
+        width: 67%;
     }
-    .laurel-right, .laurel-left {
+    .animals.laurel-left, .animals.laurel-right, .creatures.laurel-left, .creatures.laurel-right,   .laurel-right, .laurel-left {
         margin-top: 0em;
         padding: 0 3em .5em 3em;
     }
@@ -237,7 +255,23 @@ footer {
         margin: 0 auto;
     }
     
-  }
+    .page {
+        padding: unset;
+    }
+    
+    .glitch-container {
+        height: 11em;
+        bottom: 0;
+        z-index: -9;
+        position: relative;
+        opacity: .4;
+    
+     }
+    footer {
+        height: 10em;
+    }
+
+}
 
   /*###  ######     #     #####  ### #     #  #####     #     # ####### #       ######  ####### ######   #####  
  #     # #     #   # #   #     #  #  ##    # #     #    #     # #       #       #     # #       #     # #     # 
