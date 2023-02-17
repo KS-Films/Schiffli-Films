@@ -116,6 +116,7 @@ a:hover, .social:hover, .arrow:hover {
     bottom: 0;
     z-index: -9;
     position: relative;
+    opacity: .6;
 }
 
 #glitch-x {
