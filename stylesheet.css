@@ -1,11 +1,13 @@
 html {
     background-color: black;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 body {
     position: relative;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 .background{
     /* background-image: url(./assets/imgs/blurry-background.jpg);
