@@ -50,7 +50,6 @@ a:hover, .social:hover, .arrow:hover {
     transition: 1s;
     transition-timing-function: ease-out;
     cursor: pointer;
-    transform: translateY(-10px);
 }
 
 .arrow:hover {
@@ -154,6 +153,10 @@ footer {
     height: 25em;
 }
 
+footer .glitch-container {
+    height: 20em;
+}
+
 @-webkit-keyframes pulseUp {
     from {
       -webkit-transform: scale(1);
@@ -187,7 +190,7 @@ footer {
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    margin-top: 3em;
+    margin-top: 4em;
 }
 
 .youtube-container iframe,.youtube-container object,.youtube-container embed {
@@ -207,22 +210,22 @@ footer {
 } 
 
 .creatures.laurel-left {
-    margin-top: 7em;
-}
-
-.creatures.laurel-right {
-    margin-top: 10em;
-}
-
-.laurel-left {
     margin-top: 5em;
 }
 
-.laurel-right {
+.creatures.laurel-right {
     margin-top: 8em;
 }
 
-@media only screen and (max-width: 1000px) {
+.laurel-left {
+    margin-top: 8em;
+}
+
+.laurel-right {
+    margin-top: 10em;
+}
+
+@media only screen and (max-width: 1020px) {
     .social {
         margin-bottom: 2em;
     }
